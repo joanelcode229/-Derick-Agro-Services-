@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Développement Agricole</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Police moderne -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Contact</h1>
+    <nav>
+      <a href="index.html">⬅ Retour à l’accueil</a>
+    </nav>
+  </header>
 
+  <main>
+    <section id="contact">
+      <h2>Nous contacter</h2>
+      <p>
+        Pour toute information ou collaboration, vous pouvez nous écrire directement à :  
+        <a href="mailto:avonongbed@gmail.com">avonongbed@gmail.com</a>
+      </p>
+
+      <h3>Formulaire de contact</h3>
+      <form action="mailto:avonongbed@gmail.com" method="post" enctype="text/plain">
+        <label for="nom">Nom :</label><br>
+        <input type="text" id="nom" name="nom" placeholder="Votre nom" required><br><br>
+
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email" placeholder="Votre email" required><br><br>
+
+        <label for="message">Message :</label><br>
+        <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea><br><br>
+
+        <button type="submit">Envoyer</button>
+        <button type="reset">Effacer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Développement Agricole. Tous droits réservés.</p>
+    <p>Site conçu et structuré par <strong>Joanel</strong></p>
+  </footer>
+</body>
+</html>
